@@ -1,0 +1,39 @@
+#header{
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    padding: 13px 5px;
+
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        left: 450px;
+    }
+
+    img{
+        width: 120px;
+        height: 109px;
+    }
+
+    div{
+        position: absolute;
+        right: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        
+
+        button{
+            width: 94px;
+            height: 34px;
+            border-radius: 6px;
+            line-height: 18px;
+            
+        }
+    }
+}
